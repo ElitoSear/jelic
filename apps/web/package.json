@@ -1,0 +1,25 @@
+{
+  "name": "@jelic/web",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx --env-file-if-exists=.env server.ts",
+    "build": "next build",
+    "start": "NODE_ENV=production tsx --env-file-if-exists=.env server.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@jelic/bridge": "workspace:*",
+    "@jelic/shared": "workspace:*",
+    "next": "^16.4.6",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  }
+}

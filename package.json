@@ -1,0 +1,11 @@
+{
+  "name": "jelic",
+  "private": true,
+  "packageManager": "pnpm@12.4.2",
+  "scripts": {
+    "dev": "pnpm --filter @jelic/web dev",
+    "build": "pnpm --filter @jelic/web build",
+    "start": "pnpm --filter @jelic/web start",
+    "typecheck": "pnpm -r typecheck"
+  }
+}

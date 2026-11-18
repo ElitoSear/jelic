@@ -1,0 +1,9 @@
+{
+  "name": "@jelic/bridge",
+  "private": true,
+  "type": "module",
+  "exports": { ".": "./src/index.ts" },
+  "scripts": { "typecheck": "tsc --noEmit" },
+  "dependencies": { "@jelic/shared": "workspace:*", "mqtt": "^5.10.0", "ws": "^8.18.0" },
+  "devDependencies": { "@types/node": "^22.0.0", "@types/ws": "^8.5.12", "typescript": "^5.6.0" }
+}
